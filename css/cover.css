@@ -58,6 +58,15 @@ body {
   padding: 30px;
 }
 
+.img-circle-border {
+  width: 150px;
+  margin: 5px;
+  border: 5px solid white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+
 
 /*
  * Header
