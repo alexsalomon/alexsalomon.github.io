@@ -4,6 +4,10 @@ $(document).ready(function()
 	//load gravatar image
 	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 135); //need to change img-circle-border css to change image size
 	$('#gravatar_image').attr('src', gravatar_image_url);
+
+	//Fade in effect of content
+	$("#content").css("display", "none");
+	$("#content").fadeIn(1500);
 });
 
 function get_gravatar_image_url(email, size, default_image, allowed_rating, force_default)

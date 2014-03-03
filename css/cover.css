@@ -43,12 +43,12 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background: url("../assets/img/palm_trees_dark.jpg");
+  background: url("../assets/img/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  box-shadow: 0 0 250px 300px rgba(0,0,0,.5) inset;
+  /*box-shadow: 0 0 100px 10px rgba(0,0,0,.5) inset;*/
 }
 body {
   color: #fff;
