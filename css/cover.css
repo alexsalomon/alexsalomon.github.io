@@ -1,7 +1,4 @@
 
-bals
- */
-
 /* Links */
 a,
 a:focus,
@@ -19,6 +16,24 @@ a:hover {
   border: 1px solid #fff;
 }
 
+/*regular version*/
+@font-face {
+  font-family: 'edelsans';
+  src: 
+    local('edelsans'),
+    url('../assets/fonts/edelsans/edelsans_ultralight.otf')
+    format('opentype');
+}
+
+/*bold version*/
+@font-face {
+  font-family: 'edelsans';
+  src: 
+    local('edelsans'),
+    url('../assets/fonts/edelsans/edelsans_regular.otf')
+    format('opentype');
+  font-weight: bold;
+}
 
 /*
  * Base structure
@@ -34,7 +49,8 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 200px rgba(0,0,0,.5);
+  font-family: 'edelsans', sans-serif; 
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -59,9 +75,9 @@ body {
 }
 
 .img-circle-border {
-  width: 150px;
-  margin: 5px;
-  border: 5px solid white;
+  width: 135px;
+  margin: 2px;
+  border: 2px solid white;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -118,11 +134,7 @@ body {
  */
 
 .cover {
-  padding: 0 50px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+  padding: 0 120px;
 }
 
 /*
@@ -132,6 +144,10 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+}
+
+.footer {
+  font-size: 12px;
 }
 
 
