@@ -1,32 +1,11 @@
 
 $(document).ready(function() 
 {
-	select_home_page();
+	$('#home-link').parent().addClass("active");
 	load_gravatar_image();
+	display_element_using_fadein_effect("#bio-content", 1500);
 	enable_colorful_image_on_hover();
 });
-
-function select_home_page()
-{  
-	$('#home-link').parent().addClass("active");    
-    $('#projects-link').parent().removeClass("active");
-    $('#projects-content').css("display", "none");
-    display_element_using_fadein_effect("#bio-content", 1500);
-}
-
-function select_projects_page()
-{  
-    $('#home-link').parent().removeClass("active");
-    $('#projects-link').parent().addClass("active");    
-    $('#bio-content').css("display", "none");
-    display_element_using_fadein_effect("#projects-content", 1500);  
-}
-
-function display_element_using_fadein_effect(element, duration)
-{
-	$(element).css("display", "none");
-	$(element).fadeIn(duration);
-}
 
 function load_gravatar_image()
 {
@@ -54,6 +33,28 @@ function enable_colorful_image_on_hover()
 	        , 'src-on-hover': $(this).attr('src') 
 	    })
 	});
+}
+
+function select_home_page()
+{  
+	$('#home-link').parent().addClass("active");    
+    $('#projects-link').parent().removeClass("active");
+    $('#projects-content').css("display", "none");
+    display_element_using_fadein_effect("#bio-content", 1500);
+}
+
+function select_projects_page()
+{  
+    $('#home-link').parent().removeClass("active");
+    $('#projects-link').parent().addClass("active");    
+    $('#bio-content').css("display", "none");
+    display_element_using_fadein_effect("#projects-content", 1500);  
+}
+
+function display_element_using_fadein_effect(element, duration)
+{
+	$(element).css("display", "none");
+	$(element).fadeIn(duration);
 }
 
 $('#home-link').click(function(){

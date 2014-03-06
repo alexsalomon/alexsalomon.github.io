@@ -10,7 +10,6 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  /*box-shadow: 0 0 100px 10px rgba(0,0,0,.5) inset;*/
 }
 body {
   color: #fff;
@@ -118,13 +117,6 @@ a:hover {
   border-bottom-color: #fff;
 }
 
-/* PADDING
--------------------------------------------------- */
-/* Padding for spacing */
-.padding {
-  padding: 30px;
-}
-
 /* INDEX CONTENT
 -------------------------------------------------- */
 .bio-content {
@@ -139,19 +131,24 @@ a:hover {
 /* Pad the edges of the mobile views a bit */
 .projects-content {  
   display: none;
-  max-width: 100%;
+}
+/* Center align the text within the three columns */
+.projects-content .row {
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-/* Center align the text within the three columns */
-.projects-content .col-lg-4 {
+
+/*.projects-content .col-lg-4 {
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   text-align: center;
 }
 .projects-content .col-lg-4 p {
-  /*margin-right: 10px;*/
-  /*margin-left: 10px;*/
-}
+  margin-right: 10px;
+  margin-left: 10px;
+}*/
 .projects-content h2 {
   font-weight: normal;
 }
@@ -167,21 +164,40 @@ a:hover {
   font-size: 12px;
 }
 
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/* Extra small devices ONLY (mobile devices, 768px or less) */
+@media (max-width: 768px) {
+  .projects-content .col-6 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .padding {
+    padding-top: 30px;
+    padding-bottom: 10px;  
+  }
+}
+
+/* Small devices and up (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
+  /* Pull out the header */
   .masthead {
     position: fixed;
     top: 0;
   }
+
+  /* Reposition masthead nav and brand */
   .masthead-brand {
     float: left;
   }
   .masthead-nav {
     float: right;
   }
+
+  .padding {
+    padding: 30px;
+  }  
 
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -194,10 +210,11 @@ a:hover {
     padding-left: 0;
   }
 
+  /* Pull out the footer */
   .mastfoot {
     position: fixed;
     bottom: 0;
-  }
+  }  
 
   /* Handle the widths */
   .masthead,
@@ -207,11 +224,15 @@ a:hover {
   }
 }
 
-
+/* Medium devices and up (desktops, 992px and up) */
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .content-container {
     width: 700px;
   }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
