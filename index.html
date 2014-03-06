@@ -5,15 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <!-- <meta name="description" content=""> -->
     <meta name="author" content="Alex Salomon">
     <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" href="">
+    <!-- <link rel="shortcut icon" href=""> -->
 
     <title>Alex Salomon - Software Engineer</title>
 
     <link rel="stylesheet" href="css/lib/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
@@ -27,18 +26,18 @@
             <div class="padding">
               <h3 class="masthead-brand">Alex Salomon</h3>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a id="home-link" href="#">Home</a></li>
+                <li><a id="projects-link" href="#">Projects</a></li>
               </ul>
             </div>
           </div>
 
-  <!--  CONTENT:
+  <!--  BIO CONTENT:
   ================================================== -->
-          <div class="padding content" id="content">
+          <div class="padding bio-content" id="bio-content">
             <img id="gravatar_image" class="img-circle-border" alt="">
             <p class="lead"><strong>I'm Alex</strong>, software engineer and tech enthusiastic. For more information click on the icons below.</p>
-            <div id="content-icons">
+            <div id="bio-content-icons">
               <a href="http://www.linkedin.com/in/alexsalomon">
                 <img src="assets/icons/LinkedIn_grey.jpg" src-on-hover="assets/icons/LinkedIn_color.jpg" class="img-rounded" alt="" title="View my LinkedIn profile page">
               </a>
@@ -54,8 +53,48 @@
             </div>
           </div>
 
-<!--  FOOTER:
-================================================== -->
+    <!--  PROJECTS CONTENT:
+    ================================================== -->
+          <div class="projects-content" id="projects-content">
+            <div class="row">
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>Underground</h2>
+                <p>A C++ Top-Down Shooter Game for Windows made from scratch.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>EasyMarking</h2>
+                <p>An assignment marking application written in Python and using SQLite.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>CardioQuest</h2>
+                <p>A webapp made for the COMP4350 - Sotfware Engineering 2 class.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>Lego Robot</h2>
+                <p>A lego robot made for the Robot Hackaton 2012, in Toronto.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>alexsalomon.me</h2>
+                <p>This website.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-4">
+                <h2>Html5game</h2>
+                <p>An HTML5 game.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+            </div>
+          </div>   
+
+  <!-- =====================================================================================
+  ====================================================================================== -->                 
+
+  <!--  FOOTER:
+  ================================================== -->
           <div class="mastfoot">
             <div class="padding footer">
               <p>©2014 Alex Salomon</p>

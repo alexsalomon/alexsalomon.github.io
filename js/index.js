@@ -1,22 +1,38 @@
 
 $(document).ready(function() 
 {
+	select_home_page();
 	load_gravatar_image();
-	use_fadein_effect_in_content();
 	enable_colorful_image_on_hover();
 });
+
+function select_home_page()
+{  
+	$('#home-link').parent().addClass("active");    
+    $('#projects-link').parent().removeClass("active");
+    $('#projects-content').css("display", "none");
+    display_element_using_fadein_effect("#bio-content", 1500);
+}
+
+function select_projects_page()
+{  
+    $('#home-link').parent().removeClass("active");
+    $('#projects-link').parent().addClass("active");    
+    $('#bio-content').css("display", "none");
+    display_element_using_fadein_effect("#projects-content", 1500);  
+}
+
+function display_element_using_fadein_effect(element, duration)
+{
+	$(element).css("display", "none");
+	$(element).fadeIn(duration);
+}
 
 function load_gravatar_image()
 {
 	//need to change img-circle-border css to change image size
 	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 135);
 	$('#gravatar_image').attr('src', gravatar_image_url);
-}
-
-function use_fadein_effect_in_content()
-{
-	$("#content").css("display", "none");
-	$("#content").fadeIn(1500);
 }
 
 function get_gravatar_image_url(email, size, default_image, allowed_rating, force_default)
@@ -32,10 +48,20 @@ function get_gravatar_image_url(email, size, default_image, allowed_rating, forc
 
 function enable_colorful_image_on_hover()
 {   
-	$('#content-icons img').bind('mouseenter mouseleave', function() {
+	$('#bio-content-icons img').bind('mouseenter mouseleave', function() {
 	    $(this).attr({
 	        src: $(this).attr('src-on-hover') 
 	        , 'src-on-hover': $(this).attr('src') 
 	    })
 	});
 }
+
+$('#home-link').click(function(){
+	select_home_page();
+    return false;
+});
+
+$('#projects-link').click(function(){
+	select_projects_page();
+    return false;
+});	
