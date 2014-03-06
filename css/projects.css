@@ -1,0 +1,30 @@
+/* PROJECTS CONTENT
+-------------------------------------------------- */
+/* Pad the edges of the mobile views a bit */
+.container {  
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center align the text within the three columns */
+.container .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container .col-lg-4 p {
+  /*margin-right: 10px;*/
+  /*margin-left: 10px;*/
+}
+.container h2 {
+  font-weight: normal;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Remove the edge padding needed for mobile */
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
