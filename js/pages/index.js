@@ -1,14 +1,23 @@
 
 $(document).ready(function() 
 {
-	//load gravatar image
-	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 135); //need to change img-circle-border css to change image size
-	$('#gravatar_image').attr('src', gravatar_image_url);
+	load_gravatar_image();
+	use_fadein_effect_in_content();
+	enable_colorful_image_on_hover();
+});
 
-	//Fade in effect of content
+function load_gravatar_image()
+{
+	//need to change img-circle-border css to change image size
+	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 135);
+	$('#gravatar_image').attr('src', gravatar_image_url);
+}
+
+function use_fadein_effect_in_content()
+{
 	$("#content").css("display", "none");
 	$("#content").fadeIn(1500);
-});
+}
 
 function get_gravatar_image_url(email, size, default_image, allowed_rating, force_default)
 {
@@ -20,20 +29,13 @@ function get_gravatar_image_url(email, size, default_image, allowed_rating, forc
 
 	return ("http://www.gravatar.com/avatar/" + md5(email.toLowerCase().trim()) + "?size=" + size + "&default=" + encodeURIComponent(default_image) + "&rating=" + allowed_rating + (force_default === 'y' ? "&forcedefault=" + force_default : ''));
 }
-   
-function change_image_source_on_hover(element, nohover_image, hover_image)
-{
-	$("#" + element).hover(
-		function () {
-			$(this).attr("src", hover_image);
-		},
-		function () {
-			$(this).attr("src", nohover_image);
-		}
-	);
-}
 
-change_image_source_on_hover("linkedin", "assets/icons/LinkedIn_grey.jpg", "assets/icons/LinkedIn_color.jpg");
-change_image_source_on_hover("github", "assets/icons/Github_grey.jpg", "assets/icons/Github_color.jpg");
-change_image_source_on_hover("instagram", "assets/icons/Instagram_grey.jpg", "assets/icons/Instagram_color.jpg");
-change_image_source_on_hover("email", "assets/icons/email_grey.jpg", "assets/icons/email_color.jpg");
+function enable_colorful_image_on_hover()
+{   
+	$('#content-icons img').bind('mouseenter mouseleave', function() {
+	    $(this).attr({
+	        src: $(this).attr('src-on-hover') 
+	        , 'src-on-hover': $(this).attr('src') 
+	    })
+	});
+}
