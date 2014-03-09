@@ -132,11 +132,6 @@ a:hover {
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
 @media (max-width: 768px) {
-  .projects-content .col-6 {
-    padding-bottom: 10px;
-    text-align: center;
-  }
-
   .padding {
     padding-top: 30px;
     padding-bottom: 10px;  
@@ -166,12 +161,6 @@ a:hover {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-  }
-
-  /* Remove the edge padding needed for mobile */
-  .projects-content {
-    padding-right: 0;
-    padding-left: 0;
   }
 
   /* Pull out the footer */

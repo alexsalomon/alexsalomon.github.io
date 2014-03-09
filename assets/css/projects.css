@@ -1,4 +1,4 @@
-/* PROJECTS CONTENT
+/* PROJECTS PAGE
 -------------------------------------------------- */
 /* Pad the edges of the mobile views a bit */
 .projects-content {  
@@ -25,7 +25,20 @@
   font-weight: normal;
 }
 
+/* PROJECTS LAYOUT
+-------------------------------------------------- */
+.project-content-wrapper {
+  position: fixed;
+  top: 12%;
+  left: 20%;
+  max-height: 80%;
+  max-width: 60%;
+  overflow: auto;
+}
 
+.project-description {
+  overflow: hidden;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
