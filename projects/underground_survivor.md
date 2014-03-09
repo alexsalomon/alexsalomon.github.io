@@ -5,9 +5,10 @@ image_sources:
   - /assets/img/projects/underground-survivor/MainMenu.jpg
   - /assets/img/projects/underground-survivor/gameplay_4.jpg
   - /assets/img/projects/underground-survivor/game_over.jpg
+source-code: https://github.com/alexsalomon/underground-survivor
+downloadable: true
+download-windows: http://bit.ly/MtCjwg
 ---
-
-     Underground Survivor is a Windows only top-down shooter game. A cross-platform version will be released in the future.
 
 Introduction
 ------------
