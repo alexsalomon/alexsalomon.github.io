@@ -6,6 +6,8 @@ extra_css:
     
     <div class="project-content-wrapper">
       <div class="project-description">
+        <h1>{{ page.project-name }}</h1>
+        {% include carousel.html image_sources=page.image_sources %}
         {{ content }}
       </div>
     </div>

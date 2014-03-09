@@ -142,7 +142,7 @@ a:hover {
 @media (min-width: 768px) {
   /* Pull out the header */
   .masthead {
-    position: fixed;
+    position: absolute;
     top: 0;
   }
 
@@ -165,7 +165,7 @@ a:hover {
 
   /* Pull out the footer */
   .mastfoot {
-    position: fixed;
+    position: absolute;
     bottom: 0;
   }  
 

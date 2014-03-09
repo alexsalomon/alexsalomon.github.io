@@ -1,14 +1,12 @@
 ---
 layout: project-layout
+project-name: Underground Survivor
+image_sources:
+  - /assets/img/projects/underground-survivor/MainMenu.jpg
+  - /assets/img/projects/underground-survivor/gameplay_4.jpg
+  - /assets/img/projects/underground-survivor/game_over.jpg
 ---
 
-Underground Survivor
-====================
-
-<div>
-   {% include carousel.html %}
-</div>
-<br/>
      Underground Survivor is a Windows only top-down shooter game. A cross-platform version will be released in the future.
 
 Introduction

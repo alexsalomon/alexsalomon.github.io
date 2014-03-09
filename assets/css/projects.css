@@ -28,17 +28,24 @@
 /* PROJECTS LAYOUT
 -------------------------------------------------- */
 .project-content-wrapper {
-  position: fixed;
+  padding-top: 12%;
+/*  position: fixed;
   top: 12%;
   left: 20%;
   max-height: 80%;
   max-width: 60%;
-  overflow: auto;
+  overflow: auto;*/
 }
 
 .project-description {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
+
+#project-carousel {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
