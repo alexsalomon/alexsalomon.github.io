@@ -1,11 +1,31 @@
 
 /* BASE STRUCTURE
 -------------------------------------------------- */
+/* Custom default font */
+/*regular version*/
+@font-face {
+  font-family: 'edelsans';
+  src: 
+    local('edelsans'),
+    url('../fonts/edelsans/edelsans_ultralight.otf')
+    format('opentype');
+}
+
+/*bold version*/
+@font-face {
+  font-family: 'edelsans';
+  src: 
+    local('edelsans'),
+    url('../fonts/edelsans/edelsans_regular.otf')
+    format('opentype');
+  font-weight: bold;
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
-  background: url("../assets/img/background.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -34,26 +54,6 @@ a:hover {
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
-}
-
-/* Custom default font */
-/*regular version*/
-@font-face {
-  font-family: 'edelsans';
-  src: 
-    local('edelsans'),
-    url('../assets/fonts/edelsans/edelsans_ultralight.otf')
-    format('opentype');
-}
-
-/*bold version*/
-@font-face {
-  font-family: 'edelsans';
-  src: 
-    local('edelsans'),
-    url('../assets/fonts/edelsans/edelsans_regular.otf')
-    format('opentype');
-  font-weight: bold;
 }
 
 .img-circle-border {
@@ -115,42 +115,6 @@ a:hover {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
-}
-
-/* INDEX CONTENT
--------------------------------------------------- */
-.bio-content {
-  max-width: 72%;
-  margin-left: auto;
-  margin-right: auto;
-  display: none;
-}
-
-/* PROJECTS CONTENT
--------------------------------------------------- */
-/* Pad the edges of the mobile views a bit */
-.projects-content {  
-  display: none;
-}
-/* Center align the text within the three columns */
-.projects-content .row {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*.projects-content .col-lg-4 {
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: center;
-}
-.projects-content .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}*/
-.projects-content h2 {
-  font-weight: normal;
 }
 
 /* FOOTER
