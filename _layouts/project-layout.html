@@ -7,14 +7,14 @@ extra_scripts:
 ---
     <div class="project-content-wrapper">
       <div class="project-description">
-        <h1>{{ page.project-name }}</h1>
+        <h1 name="top">{{ page.project-name }}</h1>
         {% include carousel.html image_sources=page.image_sources %}
 
         <div id="project-icons">
           {% if page.downloadable == true %}
             <p id="download"><strong>Download:&nbsp;</strong>
                 <a href="{{ page.download-windows }}">
-                  <img src="/assets/icons/Windows_sm_grey.jpg" src-on-hover="/assets/icons/Windows_sm_color.jpg" class="img-rounded" alt="" title="Download the app">
+                  <img src="/assets/icons/Windows_sm_grey.jpg" src-on-hover="/assets/icons/Windows_sm_color.jpg" class="img-rounded" alt="" title="Download for Windows">
                 </a>                      
             </p>
           {% endif %}
@@ -27,6 +27,15 @@ extra_scripts:
           {% endif %}
         </div>
 
-        {{ content }}
+        <div class ="project-content">
+          {{ content }}
+        </div>
+
+        <div class="project-back-links">
+          <a href="#top">Back to top</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+          <a href="/projects/">Back to Projects</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+          <a href="/index.html">Back to Home</a>
+        </div>
+
       </div>
     </div>

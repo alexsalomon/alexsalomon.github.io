@@ -2,10 +2,13 @@
 layout: project-layout
 project-name: Underground Survivor
 image_sources:
-  - /assets/img/projects/underground-survivor/MainMenu.jpg
+  - /assets/img/projects/underground-survivor/main_menu.jpg
+  - /assets/img/projects/underground-survivor/wave1_start.jpg
+  - /assets/img/projects/underground-survivor/enemies_coming.jpg
   - /assets/img/projects/underground-survivor/gameplay_4.jpg
+  - /assets/img/projects/underground-survivor/wave4.jpg
   - /assets/img/projects/underground-survivor/game_over.jpg
-source-code: https://github.com/alexsalomon/underground-survivor
+<!-- source-code: https://github.com/alexsalomon/underground-survivor -->
 downloadable: true
 download-windows: http://bit.ly/MtCjwg
 ---
@@ -17,21 +20,6 @@ Introduction
   
    This project reflects my desire to develop games and to understand how they work underneath the hood: their physics, mechanics and the challenges involved in making them. While developing this game, I used a full object oriented approach, keeping code readability, re-usability and maintainability as my priority. When I first started, I barely knew C++ or how to create a project inside Visual Studio 2010. I have come a long way from looking up tutorials online on how to create a Win32 application and display a window to the screen to have produced a fully functional game. 
 
-Game Controls
--------------
-
-Main Menu: 
-  -  Press the arrow keys up and down in order to choose an option in the menu
-  -  Press Enter to select the chosen option
-
-Game:
-  -  Arrow keys Up, Down, Left and Right move the character
-  -  Use the mouse to aim and the mouse's left button to shoot
-  -  Press ESC to return to the main menu
-  -  Press P or Pause to pause the game
-
-
-  
 Game Idea and Gameplay
 ----------------------
 

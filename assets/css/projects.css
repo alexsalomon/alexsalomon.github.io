@@ -29,25 +29,27 @@
 -------------------------------------------------- */
 .project-content-wrapper {
   padding-top: 12%;
-/*  position: fixed;
-  top: 12%;
-  left: 20%;
-  max-height: 80%;
-  max-width: 60%;
-  overflow: auto;*/
 }
 
 .project-description {
-  /*overflow: hidden;*/
   text-align: justify;
 }
 
 .project-description h1, h2, h3 {
   text-align: center;
 }
+.project-description h1 {
+  padding-bottom: 15px;
+}
+
+#project-carousel {
+  border: 2px solid;
+  border-radius: 6px; 
+}
 
 #project-icons {
   text-align: justify; 
+  padding-top: 8px;
 }
 #project-icons:after{
     content: '';
@@ -67,9 +69,17 @@
   vertical-align: baseline;  
 }
 
-#project-carousel {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.project-content {
+  margin-top: -40px;
+}
+.project-content p {
+  text-indent:50px;
+}
+
+.project-back-links {
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 /* RESPONSIVE CSS
