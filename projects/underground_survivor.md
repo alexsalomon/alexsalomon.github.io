@@ -13,15 +13,19 @@ downloadable: true
 download-windows: http://bit.ly/MtCjwg
 ---
 
-Introduction
-------------
+## Introduction
 
-   Underground Survivor is a project I worked on during the winter of 2012. The idea was to create a game from scratch, designing not only the game logic, but also the entire game engine and the graphics. Although most of the basic functionality such as player control, rendering, animation system and artificial intelligence has already been implemented, the game is still a prototype, and, as such, some of the graphics were taken from other websites, which I cite in the game.
+   Underground Survivor is a project I worked on during the winter of 2012. The idea was to create a game from scratch, designing not only the game logic, but also the entire game engine and graphics. Although most of the basic functionality such as player control, rendering, animation system and artificial intelligence has already been implemented, the game is still a prototype, and, as such, some of the graphics were taken from other websites, which I cite in the game.
   
-   This project reflects my desire to develop games and to understand how they work underneath the hood: their physics, mechanics and the challenges involved in making them. While developing this game, I used a full object oriented approach, keeping code readability, re-usability and maintainability as my priority. When I first started, I barely knew C++ or how to create a project inside Visual Studio 2010. I have come a long way from looking up tutorials online on how to create a Win32 application and display a window to the screen to have produced a fully functional game. 
+   This project reflected my desire to understand how games work underneath the hood: their physics, mechanics and the challenges involved in making them. While developing this game, I used a full object oriented approach, keeping code readability, re-usability and maintainability as my priority. When I first started, I barely knew C++ or how to create a project inside Visual Studio 2010. I have come a long way from looking up tutorials online on how to create a Win32 application and display a window to the screen to have produced a fully functional game. 
 
-Game Idea and Gameplay
-----------------------
+## Languages, Libraires and Frameworks
+   - C++
+   - [DevIL](http://openil.sourceforge.net/about.php)
+   - [OpenGL](http://www.opengl.org/)
+   - [googletest](https://code.google.com/p/googletest/)
+
+## Game Idea and Gameplay
 
    The game idea is quite simple: In 2015, a plague broke out in some of the major cities on Earth, turning most of its inhabitants into zombies. To stop the plague, many soldiers were sent to those cities in order to surround the area and contain the infestation. Unfortunately for our main character, Beatriz, something went wrong and she was left behind in the middle of one of those cities. Running for her life, Beatriz fell into a  surrounded underground place, calling a lot of attention to herself. In order to return to the surface, she has to  free her way out through one of the ten passages around her, killing as many zombies as necessary to survive.  
 
