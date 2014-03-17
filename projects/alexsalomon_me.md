@@ -5,6 +5,7 @@ image_sources:
   - /assets/img/projects/alexsalomon_me/index-page.jpg
   - /assets/img/projects/alexsalomon_me/projects-page.jpg
   - /assets/img/projects/alexsalomon_me/undsur-page.jpg
+source-code: https://github.com/alexsalomon/alexsalomon.github.io
 ---
 
 ## Introduction
