@@ -157,6 +157,9 @@ body {
   .site-wrapper {
     padding-top: 130px; /* Height of the header + 10px of space*/
   }  
+  .site-content {
+    padding: 0px 15px;
+  }  
 }
 
 /* Small devices and up (tablets, 768px and up) */
@@ -168,6 +171,9 @@ body {
   .masthead-nav {
     float: right;
   }
+  .site-content {
+    padding: 0px 20px;
+  }  
 }
 
 /* Medium devices and up (desktops, 992px and up) */
@@ -176,6 +182,9 @@ body {
   .mastfoot,
   .site-wrapper {
     width: 700px;
+  }
+  .site-content {
+    padding: 0px 0px;
   }
 }
 
