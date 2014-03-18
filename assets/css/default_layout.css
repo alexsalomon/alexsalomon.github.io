@@ -37,6 +37,7 @@ a:hover {
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
+  font-weight: normal;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;

@@ -1,31 +1,17 @@
-/* PROJECTS PAGE
+/* PROJECTS INDEX PAGE
 -------------------------------------------------- */
-/* Pad the edges of the mobile views a bit */
 .projects-content {  
   display: none;
 }
-/* Center align the text within the three columns */
 .projects-content .row {
   max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
-
-/*.projects-content .col-lg-4 {
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: center;
-}
-.projects-content .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}*/
 .projects-content h2 {
   font-weight: normal;
 }
 
-/* PROJECTS LAYOUT
+/* PROJECTS LAYOUT (PAGE FOR EACH INDIVIDUAL PROJECT)
 -------------------------------------------------- */
 .project-content-wrapper {
   padding-top: 12%;
@@ -93,23 +79,23 @@
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
 @media (max-width: 768px) {
-  .projects-content .col-6 {
-    padding-bottom: 10px;
-    text-align: center;
-  }
+  .projects-content .row {
+    max-width: 100%;
+  }    
 }
 
 /* Small devices and up (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* Remove the edge padding needed for mobile */
-  .projects-content {
-    padding-right: 0;
-    padding-left: 0;
-  }
+  .projects-content .row {
+    max-width: 70%;
+  }  
 }
 
 /* Medium devices and up (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .projects-content .row {
+    max-width: 80%;
+  }  
 }
 
 /* Large devices (large desktops, 1200px and up) */

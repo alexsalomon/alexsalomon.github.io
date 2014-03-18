@@ -1,7 +1,7 @@
 
 $(document).ready(function() 
 {
-	display_element_using_fadein_effect("#projects-content", 1500);
+	display_element_using_fadein_effect(".projects-content", 1500);
 	enable_colorful_image_on_hover();
 });
 
