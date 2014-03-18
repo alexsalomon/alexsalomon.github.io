@@ -1,10 +1,10 @@
 /* INDEX CONTENT
 -------------------------------------------------- */
-.bio-content {
+#bio-content {
   margin: 0 auto;
   display: none;
 }
-.bio-content p {
+#bio-content p {
   margin: 0;
   padding: 0;
 }
