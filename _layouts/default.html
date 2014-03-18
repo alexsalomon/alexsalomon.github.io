@@ -22,37 +22,33 @@
   <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
-        <div class="content-container">
 
   <!--  NAVBAR / MENU:
   ================================================== -->  
-          <div class="masthead clearfix">          
-            <div class="padding">
-              <h3 class="masthead-brand">Alex Salomon</h3>
-              <ul class="nav masthead-nav">
-                <li {% if page.url == "/index.html" %} class="active"{% endif %}><a href="/index.html">Home</a></li>
-                <li {% if page.url contains "/projects/" %} class="active"{% endif %}><a href="/projects/">Projects</a></li>
-              </ul>
-            </div>
-          </div>
+      <div class="masthead clearfix">          
+        <h3 class="masthead-brand">Alex Salomon</h3>
+        <ul class="nav masthead-nav">
+          <li {% if page.url == "/index.html" %} class="active"{% endif %}><a href="/index.html">Home</a></li>
+          <li {% if page.url contains "/projects/" %} class="active"{% endif %}><a href="/projects/">Projects</a></li>
+        </ul>
+      </div>
 
   <!--  CONTENT:
   ================================================== -->
-          <div class="site-content">  
-            {{ content }}              
-          </div>
+        <div class="site-content">  
+          {{ content }}              
+        </div>
 
   <!--  FOOTER:
   ================================================== -->
-          <!-- <div class="mastfoot"> -->
-            <!-- <div class="padding footer"> -->
-              <!-- <p>©2014 Alex Salomon</p> -->
-            <!-- </div> -->
-          <!-- </div> -->
-          
+        <div class="mastfoot">
+          <div class="footer">
+            <p>©2014 Alex Salomon</p>
+          </div>
         </div>
-      </div>
-    </div>        
+            
+      </div>  
+    </div>            
 
   <!--  Scripts:
   ================================================== -->
