@@ -12,13 +12,15 @@ image_sources:
   - /assets/img/projects/cardioquest/health.jpg
   - /assets/img/projects/cardioquest/new_health.jpg
   - /assets/img/projects/cardioquest/about.jpg      
-website: http://blakebeatty.com:8000/
+website: http://cardioquest.alexsalomon.me:8000/
 source-code: https://github.com/umfoida5/comp4350group5
 ---
 
 ## Introduction 
 
-   As part of a class project for the COMP 4350 - Software Engineering II course, my team of seven created a cardio tracking web application called CardioQuest. CardioQuest was designed to assist athletes in tracking their workout progress and help stimulate them to achieve their goals. Athletes can create an account, insert their goals, activities and weight information and CardioQuest displays their progress through graphics and awards athletes with badges for their achievements. Additionally, atheletes can insert events to keep track of when they participated of major activities. We also created an <strong>iOS application</strong> to make it easier for athletes to visualize their progress and input their workout information. 
+   As part of a class project for the COMP 4350 - Software Engineering II course, my team of seven created a cardio tracking web application called CardioQuest. CardioQuest was designed to assist athletes in tracking their workout progress and help stimulate them to work harder in order to achieve their goals. Athletes can create an account, insert goals and events they participated, log in their workouts in form of activities and log in their weight. CardioQuest displays their progress through graphics and awards athletes with badges for their achievements. 
+
+   We also created an <strong>iOS application</strong> to make it easier for athletes to visualize their progress and input their workout information. You can check out the source code for both the web application and the iOS application by clicking on the link above.
 
 
 ## Languages and Technologies
