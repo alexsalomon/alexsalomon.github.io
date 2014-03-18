@@ -41,11 +41,11 @@ body {
 /* Links */
 a,
 a:focus {
-  color: #00ccff;
+  color: #33ff00;
   text-decoration: none;
 }
 a:hover {
-  color: #00ccff;
+  color: #33ff00;
   font-weight:bold;
   text-decoration: none;
 }

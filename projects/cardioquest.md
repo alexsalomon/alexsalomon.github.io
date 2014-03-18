@@ -30,15 +30,21 @@ source-code: https://github.com/umfoida5/comp4350group5
    - PostgreSQL
 
 ## Libraries and Frameworks:
+   - [CherryPy](http://www.cherrypy.org/)
+   - [Jinja2](http://jinja.pocoo.org/)
+   - [SQLAlchemy](http://www.sqlalchemy.org/)   
+   - [Alembic](http://alembic.readthedocs.org/en/latest/)   
    - [Bootstrap](http://getbootstrap.com/)
    - [Bootswatch](http://bootswatch.com/)
-   - [SQLAlchemy](http://www.sqlalchemy.org/)
-   - [CherryPy](http://www.cherrypy.org/)
-   - [DataTables](https://datatables.net/)
+   - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)   
    - [jQuery](http://jquery.com/)
-   - [Jinja](http://jinja.pocoo.org/)
-   - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+   - [DataTables](https://datatables.net/)   
    - [Full Calendar](http://arshaw.com/fullcalendar/)
    - [High Charts](http://www.highcharts.com/)
    - [Datepicker](http://jqueryui.com/datepicker/)
+
+## Testing Libraries and Frameworks:  
+   - [unittest](http://docs.python.org/2/library/unittest.html)
    - [QUnit](https://qunitjs.com/)
+   - [Selenium](http://docs.seleniumhq.org/)
+   - [Travis](https://travis-ci.org/)

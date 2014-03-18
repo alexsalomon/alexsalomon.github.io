@@ -10,12 +10,12 @@ source-code: https://github.com/alexsalomon/alexsalomon.github.io
 
 ## Introduction
 
-   alexsalomon.me is a website I created with the intent of showcasing my personal projects.
+   <p style="text-align:center"><strong>alexsalomon.me</strong> is a website I created with the intent of showcasing my personal projects. You can checkout the source code by clicking on the link above.</p>
 
 ## Languages, Libraires and Frameworks
 - HTML
 - CSS
 - Javascript
-- jQuery
-- Bootstrap 3
-- Jekyll
+- [jQuery](http://jquery.com/)
+- [Bootstrap 3](http://getbootstrap.com/)
+- [Jekyll](http://jekyllrb.com/)
