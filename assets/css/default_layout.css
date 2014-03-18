@@ -78,13 +78,17 @@ body {
   /*height: 100%;*/
   min-height: 100%;
   margin: 0 auto;
-  padding-bottom: 40px; /* Height of the footer */
+  padding-top: 80px; /* Height of the header + 10px of space */
+  padding-bottom: 50px; /* Height of the footer + 10px of space */
 }
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
 .masthead {
+  position: absolute;
+  top: 0;
+  width: 100%;
   padding: 10px;
   padding-top: 20px;
 }
@@ -171,6 +175,9 @@ body {
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
 @media (max-width: 768px) {
+  .site-wrapper {
+    padding-top: 130px; /* Height of the header + 10px of space*/
+  }  
 }
 
 /* Small devices and up (tablets, 768px and up) */
@@ -186,13 +193,6 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .site-wrapper {
-    width: 100%;
   }
 }
 
