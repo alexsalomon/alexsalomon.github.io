@@ -20,7 +20,6 @@
   font-weight: bold;
 }
 
-/* REFACTOR HERE = COLOR AND TEXT-DECORATION ARE DUPLICATE */
 a,
 a:focus {
   color: #33ff00;
@@ -32,13 +31,12 @@ a:hover {
   text-decoration: none;
 }
 
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
   font-weight: normal;
-  text-shadow: none; /* Prevent inheritence from `body` */
+  text-shadow: none; 
   background-color: #fff;
   border: 1px solid #fff;
 }
@@ -150,7 +148,7 @@ body {
 /* Extra small devices ONLY (mobile devices, 768px or less) */
 @media (max-width: 768px) {
   .site-wrapper {
-    padding-top: 115px; /* Height of the header + 10px of space*/
+    padding-top: 115px; /* Height of the header */
   }  
   .site-content {
     margin-top: -20px;
@@ -160,7 +158,6 @@ body {
 
 /* Small devices and up (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* Reposition masthead nav and brand */
   .masthead-brand {
     float: left;
   }
