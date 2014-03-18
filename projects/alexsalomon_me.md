@@ -10,7 +10,7 @@ source-code: https://github.com/alexsalomon/alexsalomon.github.io
 
 ## Introduction
 
-   <p style="text-align:center"><strong>alexsalomon.me</strong> is a website I created with the intent of showcasing my personal projects. You can checkout the source code by clicking on the link above.</p>
+   <div style="text-align:center; max-width:85%; margin:0 auto;"><strong>alexsalomon.me</strong> is a website I created with the intent of showcasing my personal projects. You can checkout the source code by clicking on the link above.</div>
 
 ## Languages, Libraires and Frameworks
 - HTML

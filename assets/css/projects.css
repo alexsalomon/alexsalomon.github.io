@@ -13,10 +13,6 @@
 
 /* PROJECTS LAYOUT (PAGE FOR EACH INDIVIDUAL PROJECT)
 -------------------------------------------------- */
-.project-content-wrapper {
-  padding-top: 12%;
-}
-
 .project-description {
   text-align: justify;
 }
@@ -32,7 +28,7 @@
 }
 
 .project-description li {
-  margin-left: 10px;
+  list-style-position: inside;
 }
 
 #project-carousel {
@@ -72,7 +68,6 @@
 .project-back-links {
   text-align: right;
   padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 /* RESPONSIVE CSS
@@ -82,6 +77,13 @@
   .projects-content .row {
     max-width: 100%;
   }    
+  .project-back-links {
+    text-align: center;
+    padding-top: 20px;
+  }  
+  .project-description ul {
+    padding: 15px;
+  }  
 }
 
 /* Small devices and up (tablets, 768px and up) */
@@ -96,6 +98,9 @@
   .projects-content .row {
     max-width: 80%;
   }  
+  #project-carousel {
+    max-width: 700px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */

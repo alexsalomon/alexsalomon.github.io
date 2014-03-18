@@ -5,42 +5,39 @@ extra_css:
 extra_scripts:
   - /assets/js/projects.js
 ---
-    <div class="project-content-wrapper">
-      <div class="project-description">
-        <h1 name="top">{{ page.project-name }}</h1>
-        {% include carousel.html image_sources=page.image_sources %}
+    <div class="project-description">
+      <h1 name="top">{{ page.project-name }}</h1>
+      {% include carousel.html image_sources=page.image_sources %}
 
-        <div id="project-icons">
-          {% if page.downloadable == true %}
-            <p id="download"><strong>Download:&nbsp;</strong>
-                <a href="{{ page.download-windows }}">
-                  <img src="/assets/icons/Windows_sm_grey.jpg" src-on-hover="/assets/icons/Windows_sm_color.jpg" class="img-rounded" alt="" title="Download for Windows">
-                </a>                      
-            </p>
-          {% elsif page.website %}
-            <p id="download"><strong>Project website:&nbsp;</strong>
-              <a href="{{ page.website }}">{{ page.website }}</a>
-            </p>
-          {% endif %}
-          
-          {% if page.source-code %}
-            <p id="source-code"><strong>Source code:&nbsp;</strong>
-              <a href="{{ page.source-code }}">
-                <img src="/assets/icons/Github_sm_grey.jpg" src-on-hover="/assets/icons/Github_sm_color.jpg" class="img-rounded" alt="" title="View the Github page for this project">
-              </a>          
-            </p>
-          {% endif %}
-        </div>
+      <div id="project-icons">
+        {% if page.downloadable == true %}
+          <p id="download"><strong>Download:&nbsp;</strong>
+              <a href="{{ page.download-windows }}">
+                <img src="/assets/icons/Windows_sm_grey.jpg" src-on-hover="/assets/icons/Windows_sm_color.jpg" class="img-rounded" alt="" title="Download for Windows">
+              </a>                      
+          </p>
+        {% elsif page.website %}
+          <p id="download"><strong>Project website:&nbsp;</strong>
+            <a href="{{ page.website }}">{{ page.website }}</a>
+          </p>
+        {% endif %}
+        
+        {% if page.source-code %}
+          <p id="source-code"><strong>Source code:&nbsp;</strong>
+            <a href="{{ page.source-code }}">
+              <img src="/assets/icons/Github_sm_grey.jpg" src-on-hover="/assets/icons/Github_sm_color.jpg" class="img-rounded" alt="" title="View the Github page for this project">
+            </a>          
+          </p>
+        {% endif %}
+      </div>
 
-        <div class ="project-content">
-          {{ content }}
-        </div>
+      <div class ="project-content">
+        {{ content }}
+      </div>
 
-        <div class="project-back-links">
-          <a href="#top">Back to top</a>&nbsp;&nbsp; | &nbsp;&nbsp;
-          <a href="/index.html">Back to Home</a>&nbsp;&nbsp; | &nbsp;&nbsp;
-          <a href="/projects/">Back to Projects</a>
-        </div>
-
+      <div class="project-back-links">
+        <a href="#top">Back to top</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="/index.html">Home</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="/projects/">Projects</a>
       </div>
     </div>

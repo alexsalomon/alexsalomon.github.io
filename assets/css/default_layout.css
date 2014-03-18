@@ -156,7 +156,7 @@ body {
 /* Extra small devices ONLY (mobile devices, 768px or less) */
 @media (max-width: 768px) {
   .site-wrapper {
-    padding-top: 130px; /* Height of the header + 10px of space*/
+    padding-top: 125px; /* Height of the header + 10px of space*/
   }  
   .site-content {
     padding: 0px 15px;
