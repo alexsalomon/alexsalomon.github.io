@@ -20,9 +20,6 @@
 .project-description h1, h2 {
   text-align: center;
 }
-.project-description h1 {
-  padding-bottom: 15px;
-}
 .project-description h3, h4, h5 {
   font-weight:bold;
 }
@@ -40,27 +37,10 @@
   text-align: justify; 
   padding-top: 8px;
 }
-#project-icons:after{
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 0;
-    font-size:0;
-    line-height:0;
+.align-left {
+  text-align: left; 
 }
 
-#download {
-  display: inline-block;
-}
-
-#source-code {
-  display: inline-block;
-  vertical-align: baseline;  
-}
-
-.project-content {
-  margin-top: -40px;
-}
 .project-content p {
   text-indent:50px;
 }
@@ -91,6 +71,15 @@
   .projects-content .row {
     max-width: 70%;
   }  
+  .pull-sm-left {
+    float: left;
+  }
+  .pull-sm-right {
+    float: right;
+  }  
+  #extra-space {
+    height: 20px;
+  }
 }
 
 /* Medium devices and up (desktops, 992px and up) */
