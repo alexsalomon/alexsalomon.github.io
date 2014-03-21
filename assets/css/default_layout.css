@@ -4,6 +4,8 @@
 /*regular font version*/
 @font-face {
   font-family: 'edelsans';
+  font-style: normal;
+  font-weight: normal;  
   src: 
     local('edelsans'),
     url('../fonts/edelsans/edelsans_ultralight.otf')
@@ -13,11 +15,12 @@
 /*bold font version*/
 @font-face {
   font-family: 'edelsans';
+  font-style: normal;
+  font-weight: bold;    
   src: 
     local('edelsans'),
     url('../fonts/edelsans/edelsans_regular.otf')
     format('opentype');
-  font-weight: bold;
 }
 
 a,
@@ -71,8 +74,10 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0 1px 3px rgba(0,0,0,1);
   font-family: 'edelsans', sans-serif; 
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility; 
 }
 .site-wrapper {
   display: table;
