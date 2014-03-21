@@ -2,9 +2,37 @@
 $(document).ready(function() 
 {
 	load_gravatar_image();
+	align_paragraphs_based_on_screen_width();
 	display_element_using_fadein_effect("#bio-content", 1500);
 	enable_colorful_image_on_hover();
 });
+
+$(window).resize(function()
+{
+	align_paragraphs_based_on_screen_width();
+});
+
+function align_paragraphs_based_on_screen_width()
+{
+	if( $('body').innerWidth() < 380 )
+	{
+		$("#bio-content").css("width","auto");
+		$("p").css("display","inline");
+		$("#bio-content-icons").css("padding-top","10px");
+	}
+	else if( $('body').innerWidth() > 380 && $('body').innerWidth() < 768 )
+	{
+		$("#bio-content").css("width","350");
+		$("p").css("display","inline");
+		$("#bio-content-icons").css("padding-top","10px");
+	}	
+	else
+	{
+		$("#bio-content").css("width","auto");
+		$("p").css("display","block");
+		$("#bio-content-icons").css("padding-top","0");
+	}
+}
 
 function load_gravatar_image()
 {

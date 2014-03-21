@@ -8,6 +8,11 @@
   margin: 0;
   padding: 0;
 }
+#gravatar_image {
+	display: block;
+	margin: auto auto;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 /* Extra small devices ONLY (mobile devices, 768px or less) */
