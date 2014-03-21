@@ -13,7 +13,7 @@
           <div class="carousel-inner">
           {% for image_src in include.image_sources %}
             <div class="item {% if forloop.first %}active{% endif %}">
-              <img src="{{ image_src }}" class="img-rounded" alt="">
+              <img src="{{ image_src }}" class="img-rounded" alt="{{ include.image_alt_tags[forloop.index0] }}">
               <div class="container">
                 <div class="carousel-caption">
                   <h3></h3>

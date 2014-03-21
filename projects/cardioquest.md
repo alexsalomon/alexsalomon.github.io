@@ -2,16 +2,27 @@
 layout: project-layout
 project-name: CardioQuest
 image_sources:
-  - /assets/img/projects/cardioquest/home.jpg
-  - /assets/img/projects/cardioquest/profile.jpg
-  - /assets/img/projects/cardioquest/activities.jpg
-  - /assets/img/projects/cardioquest/goals.jpg
-  - /assets/img/projects/cardioquest/events.jpg
-  - /assets/img/projects/cardioquest/new_event.jpg
-  - /assets/img/projects/cardioquest/stats.jpg
-  - /assets/img/projects/cardioquest/health.jpg
-  - /assets/img/projects/cardioquest/new_health.jpg
-  - /assets/img/projects/cardioquest/about.jpg      
+  - /assets/img/projects/cardioquest/cardioquest-home-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-profile-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-activities-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-goals-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-events-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-new-event-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-statistics-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-health-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-new-health-page.jpg
+  - /assets/img/projects/cardioquest/cardioquest-about-page.jpg   
+image_alt_tags:
+  - CardioQuest Home Page
+  - CardioQuest Profile Page
+  - CardioQuest Activities Page
+  - CardioQuest Goals Page
+  - CardioQuest Events Page
+  - CardioQuest New Event Page
+  - CardioQuest Statistics Page
+  - CardioQuest Health Page
+  - CardioQuest New Health Page
+  - CardioQuest About Page        
 website: http://cardioquest.alexsalomon.me:8000/
 source-code: https://github.com/umfoida5/comp4350group5
 ---

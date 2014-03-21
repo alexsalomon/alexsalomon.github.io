@@ -2,9 +2,13 @@
 layout: project-layout
 project-name: alexsalomon.me
 image_sources:
-  - /assets/img/projects/alexsalomon_me/index-page.jpg
-  - /assets/img/projects/alexsalomon_me/projects-page.jpg
-  - /assets/img/projects/alexsalomon_me/undsur-page.jpg
+  - /assets/img/projects/alexsalomon_me/alexsalomon-me-index-page.jpg
+  - /assets/img/projects/alexsalomon_me/alexsalomon-me-projects-page.jpg
+  - /assets/img/projects/alexsalomon_me/alexsalomon-me-undsur-page.jpg
+image_alt_tags:
+  - alexsalomon.me Index Page
+  - alexsalomon.me Projects Page
+  - alexsalomon.me Underground Survivor Page
 source-code: https://github.com/alexsalomon/alexsalomon.github.io
 ---
 

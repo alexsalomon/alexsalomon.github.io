@@ -2,12 +2,19 @@
 layout: project-layout
 project-name: Underground Survivor
 image_sources:
-  - /assets/img/projects/underground-survivor/main_menu.jpg
-  - /assets/img/projects/underground-survivor/wave1_start.jpg
-  - /assets/img/projects/underground-survivor/enemies_coming.jpg
-  - /assets/img/projects/underground-survivor/gameplay_4.jpg
-  - /assets/img/projects/underground-survivor/wave4.jpg
-  - /assets/img/projects/underground-survivor/game_over.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-main-menu.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-wave1-start.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-gameplay-enemy-spawn.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-gameplay-shooting.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-wave4-start.jpg
+  - /assets/img/projects/underground-survivor/underground-survivor-c++-game-gameover.jpg
+image_alt_tags:
+  - Underground Survivor C++ Game Main Menu
+  - Underground Survivor C++ Game Gameplay Wave 1 Start
+  - Underground Survivor C++ Game Gameplay Enemy Spawn
+  - Underground Survivor C++ Game Gameplay Shooting
+  - Underground Survivor C++ Game Gameplay Wave 4 Start
+  - Underground Survivor C++ Game Game Over 
 <!-- source-code: https://github.com/alexsalomon/underground-survivor -->
 downloadable: true
 download-windows: http://bit.ly/MtCjwg

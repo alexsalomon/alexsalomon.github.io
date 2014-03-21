@@ -9,7 +9,7 @@ extra_scripts:
       <h1 name="top">{{ page.project-name }}</h1>
       {% if page.image_sources.size > 0 %}  
         <div class="top-padding-15">
-          {% include carousel.html image_sources=page.image_sources %}
+          {% include carousel.html image_sources=page.image_sources image_alt_tags=page.image_alt_tags %}
         </div>
       {% endif %}
 
