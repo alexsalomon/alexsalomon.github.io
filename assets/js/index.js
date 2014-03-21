@@ -34,7 +34,8 @@ function align_paragraphs_based_on_screen_width()
 function load_gravatar_image()
 {
 	//need to change img-circle-border css to change image size
-	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 135);
+	//Changing the size value here increases or degreases image quality
+	var gravatar_image_url = get_gravatar_image_url('alexsalomon.th@gmail.com', 200);
 	$('#gravatar_image').attr('src', gravatar_image_url);
 }
 
