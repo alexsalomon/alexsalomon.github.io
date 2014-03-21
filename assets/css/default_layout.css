@@ -12,11 +12,12 @@
     format('opentype');
 }
 
+
 /*bold font version*/
 @font-face {
   font-family: 'edelsans';
   font-style: normal;
-  font-weight: bold;    
+  font-weight: bold;
   src: 
     local('edelsans'),
     url('../fonts/edelsans/edelsans_regular.otf')
@@ -76,8 +77,14 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,1);
   font-family: 'edelsans', sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.45;
+  speak: none;
   -webkit-font-smoothing: subpixel-antialiased;
-  text-rendering: optimizeLegibility; 
+  text-rendering: optimizeLegibility;  
 }
 .site-wrapper {
   display: table;
