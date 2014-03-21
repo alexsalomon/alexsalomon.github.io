@@ -52,7 +52,7 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,1);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   font-family: 'Lato', sans-serif;    
   font-size: 14px;
   font-style: normal;
