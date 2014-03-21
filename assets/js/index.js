@@ -18,19 +18,16 @@ function align_paragraphs_based_on_screen_width()
 	{
 		$("#bio-content").css("width","auto");
 		$("p").css("display","inline");
-		$("#bio-content-icons").css("padding-top","10px");
 	}
 	else if( $('body').innerWidth() > 380 && $('body').innerWidth() < 768 )
 	{
 		$("#bio-content").css("width","350");
 		$("p").css("display","inline");
-		$("#bio-content-icons").css("padding-top","10px");
 	}	
 	else
 	{
 		$("#bio-content").css("width","auto");
 		$("p").css("display","block");
-		$("#bio-content-icons").css("padding-top","0");
 	}
 }
 
