@@ -10,3 +10,7 @@ To run jekyll:
 
 `bundle exec jekyll serve -w`
 
+Then, on your web browser go to the address below to see your changes:
+
+`http://localhost:4000/`
+
