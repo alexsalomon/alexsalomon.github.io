@@ -15,7 +15,7 @@ image_alt_tags:
   - Underground Survivor C++ Game Gameplay Shooting
   - Underground Survivor C++ Game Gameplay Wave 4 Start
   - Underground Survivor C++ Game Game Over 
-<!-- source-code: https://github.com/alexsalomon/underground-survivor -->
+source-code: https://github.com/alexsalomon/underground-survivor
 downloadable: true
 download-windows: http://bit.ly/MtCjwg
 ---
